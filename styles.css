@@ -20,7 +20,7 @@ body {
 }
 
 .controls {
-  margin-top: 80px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,4 +62,8 @@ body {
 
 .controls__buttons button:active {
   transform: scale(0.98);
+}
+
+.controls__range {
+  margin-bottom: 30px;
 }
